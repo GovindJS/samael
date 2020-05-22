@@ -1,0 +1,214 @@
+.root{
+  font-family: Poppins,sans-serif;
+}
+.title
+{
+ font-weight: bold;
+}
+.content_center {
+    justify-content: center;
+    align-items: center; 
+    width: 250px;
+    height: 150px;
+  }
+  
+  .two:hover ~ hr {
+    background-color: teal;
+  }
+  
+  .three:hover ~ hr {
+    margin-left: 50%;
+  }
+  
+  .four:hover ~ hr {
+    margin-left: 75%;
+  }
+  
+  hr {
+    background: tomato;
+    border: none;
+  }
+  .heading{
+    color:gray;
+    font-size: 40px;
+  }
+  .heading1{
+    color:gray;
+    font-size: 40px;
+  }
+  .heading:hover{
+  
+      color:black;
+      transition: .2s ease-in-out;
+      transform: scale(1.1);
+      text-decoration-color:#df1669 ;
+      cursor: pointer;
+  
+     
+      
+  }
+  .heading1:hover{
+  
+    color:#df1669;
+    transition: .5s ease-in-out;
+
+   
+    
+}
+  .menuelemnt{
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to right,white 50%,#df1669 50%);
+    background-size: 200%;
+    transition: .5s;
+
+  }
+  .menuelemnt:hover{
+    background-position: -100%;
+  }
+  maincontainer{
+    color: gra;
+  }
+  .blue
+  {
+    background-color: gray;
+  }
+  .darkgray
+  {
+    background:black;
+  }
+  .box-social{
+    position: relative;
+    border-radius: 50%;
+  }
+  .social{
+    border: 10px;
+  }
+  .socialimg1{
+    display:none
+  }
+  .social{
+    position: relative;
+    width: 45%;
+    height:200px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.048),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    padding-left: 1rem;
+    border-radius: 5%;
+
+  }
+  .socialtxt{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-left: 2rem;
+    text-align: left;
+    padding-left: 8px;
+  }
+  .socialdes{
+    font-size: 20px;
+    align-content: center;
+    text-align: left;
+    padding-left: 10px;
+    
+  }
+  .logo{
+    
+    width:20px;
+    height: 20px;
+    align-self:center;
+    float: left;
+    padding-top: 7px;
+  }
+  .social-header{
+    padding-top: 1rem;
+    text-align: left ;
+  }
+  .fa-twitch{
+    color: blueviolet;
+  }
+  .socialbutton{
+    align-items: center;
+    padding-left: 10px;
+    
+  }
+  .containersoc
+  {
+    padding-top: 3rem;
+  }
+  .fa-youtube-play
+  {
+    color: #FF0000;
+  }
+  .btn-outline-secondary
+  {
+   color:#df1669;
+   border-color:gray;
+  }
+  
+  .btn-outline-secondary:hover{
+    background-color: #df1669;
+    color: black;
+    transition: ease-in-out .2s;
+    border:#df1669 ;
+    transform: scale(1.1);
+  }
+  .navhead{
+    position: sticky;
+    top:0;
+    z-index: 5;
+    vertical-align: center;
+    height: 7rem;
+  }
+  .headspace{
+    background-color: white;
+  }
+  .mask{
+    position: absolute;
+  }
+  .footersocial{
+    padding-left: 420px;
+    padding-top: 57px;
+    align-self: center;
+  }
+  .fa-facebook-f{
+    color: #df1669;
+  }
+  .fa-twitter
+  {
+    color: #df1669;
+  }
+  .fa-linkedin
+  {
+    color: #df1669;
+  }
+  .fa-instagram
+  {
+    color: #df1669;
+  }
+  .fa-facebook-f:hover{
+    color: #df1669;
+    opacity: .9;
+    transform: scale(1.1);
+  }
+  .fa-twitter:hover
+  {
+    color: #df1669;
+    opacity: .9;
+    transform: scale(1.1);
+  }
+  .fa-linkedin:hover
+  {
+    color: #df1669;
+    opacity: .9;
+    transform: scale(1.1);
+  }
+  .fa-instagram:hover
+  {
+    color: #df1669;
+    opacity: .9;
+    transform: scale(1.1);
+  }
